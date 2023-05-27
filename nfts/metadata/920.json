@@ -1,0 +1,27 @@
+{
+  "name": "Ape.pixel #921",
+  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/920.png",
+  "dna": "1c4be7049c9928ea11a47f9c70223f51d573422b",
+  "edition": 921,
+  "date": 1685121017109,
+  "attributes": [
+    {
+      "trait_type": "Landscape",
+      "value": "Soft Pink"
+    },
+    {
+      "trait_type": "Skeletbody",
+      "value": "Orange skelet"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Confused eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "WhoWha"
+    }
+  ],
+  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+}
