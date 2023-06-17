@@ -16,7 +16,7 @@ const apesNumbers = [
 async function main() {
     for(const it of apesNumbers) {
         const file = JSON.parse(fs.readFileSync(`nfts/metadata/${it - 1}.json`, 'utf8'));
-        file.name = file.name.replace("Ape.pixel.burned.burned", "Ape.pixel.burned");
+        file.name = file.name.replace("Ape.pixel", "Ape.pixel.burned");
         file.image = file.image.replace(`${it - 1}.png`, "burned.png");
         fs.writeFile(`nfts/metadata/${it - 1}.json`, JSON.stringify(file, null, 4),(e) => {
             if(e) throw Error(e.message)
