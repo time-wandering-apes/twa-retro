@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "strict": true,
+    "lib": [
+      "es2020",
+      "esnext.asynciterable"
+    ],
+    "rootDirs": ["."]
+  },
+  "include": ["src/**/*"],
+}
