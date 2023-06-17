@@ -5,6 +5,23 @@
   "dna": "e8f2773384df01e51e4cae2f1bfa489f6144ed4e",
   "edition": 35,
   "date": 1685120667542,
-  "attributes": [],
+  "attributes": [
+    {
+      "trait_type": "Landscape",
+      "value": "Soft Blue"
+    },
+    {
+      "trait_type": "Skeletbody",
+      "value": "Acid Red sekelet"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Green eyes"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "PokerFace"
+    }
+  ],
   "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }
