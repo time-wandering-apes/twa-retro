@@ -5,7 +5,7 @@ const burned = [
 ];
 
 const animated = [
-    585
+
 ];
 
 async function main() {
