@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "build": "del-cli --force dist && tsc",
     "burn": "del-cli --force dist && tsc && node dist/burn.js"
   },
   "devDependencies": {

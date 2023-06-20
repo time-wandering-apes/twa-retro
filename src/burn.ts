@@ -1,27 +1,42 @@
 import { resolve } from "dns";
 import * as fs from "fs";
 
-const apesNumbers = [
-    1856,
-    1546,
-    1984,
-    2009,
-    1379,
-    1728,
-    1512,
-    766,
-    2228,
+const burned = [
+    162,
+    1290,
+    276,
+    1740,
+    1785,
+    1118,
+    737,
+];
+
+const animated = [
+
 ];
 
 async function main() {
-    for(const it of apesNumbers) {
+    for(const it of burned) {
         const file = JSON.parse(fs.readFileSync(`nfts/metadata/${it - 1}.json`, 'utf8'));
         file.name = file.name.replace("Ape.pixel", "Ape.pixel.burned");
         file.image = file.image.replace(`${it - 1}.png`, "burned.png");
         fs.writeFile(`nfts/metadata/${it - 1}.json`, JSON.stringify(file, null, 4),(e) => {
             if(e) throw Error(e.message)
         })
-        console.log(file)
+        await new Promise(res => setTimeout(res, 200))
+    }
+
+
+    for(const it of animated) {
+        const file = JSON.parse(fs.readFileSync(`nfts/metadata/${it - 1}.json`, 'utf8'));
+        file.image = file.image.replace(`${it - 1}.png`, `${it - 1}.gif`);
+        file.attributes.unshift({
+            "trait_type": "Animation",
+            "value": "GIF"
+        })
+        fs.writeFile(`nfts/metadata/${it - 1}.json`, JSON.stringify(file, null, 4),(e) => {
+            if(e) throw Error(e.message)
+        })
         await new Promise(res => setTimeout(res, 200))
     }
 }
