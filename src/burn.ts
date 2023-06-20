@@ -1,18 +1,11 @@
-import { resolve } from "dns";
 import * as fs from "fs";
 
 const burned = [
-    162,
-    1290,
-    276,
-    1740,
-    1785,
-    1118,
-    737,
+
 ];
 
 const animated = [
-
+    585
 ];
 
 async function main() {
