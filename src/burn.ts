@@ -1,7 +1,7 @@
 import * as fs from "fs";
 
 const burned = [
-    2013, 142, 2007, 176, 1071, 1576
+    670
 ];
 
 const animated = [
