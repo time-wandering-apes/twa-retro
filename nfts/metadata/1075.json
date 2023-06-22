@@ -1,35 +1,39 @@
 {
-  "name": "Ape.pixel #1076",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/1075.png",
-  "dna": "b831fcbb64654f716198d6aecceeb2d2b5e721b1",
-  "edition": 1076,
-  "date": 1685121079295,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Gray"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Green Big Ears"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "Pink shirt"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Anime eyes"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "FullSmile"
-    },
-    {
-      "trait_type": "Hand",
-      "value": "Blades in hand"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel #1076",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/1075.gif",
+    "dna": "b831fcbb64654f716198d6aecceeb2d2b5e721b1",
+    "edition": 1076,
+    "date": 1685121079295,
+    "attributes": [
+        {
+            "trait_type": "Animation",
+            "value": "GIF"
+        },
+        {
+            "trait_type": "Landscape",
+            "value": "Gray"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Green Big Ears"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "Pink shirt"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Anime eyes"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "FullSmile"
+        },
+        {
+            "trait_type": "Hand",
+            "value": "Blades in hand"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }

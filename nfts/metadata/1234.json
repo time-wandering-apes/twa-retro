@@ -1,31 +1,35 @@
 {
-  "name": "Ape.pixel #1235",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/1234.png",
-  "dna": "9791a460dd00461a279c83b72b97f7436681f881",
-  "edition": 1235,
-  "date": 1685121143756,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Light Blue"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Dark Gray"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "Red shirt"
-    },
-    {
-      "trait_type": "TV",
-      "value": "Apesonic TV"
-    },
-    {
-      "trait_type": "Hand",
-      "value": "Candle"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel #1235",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/1234.gif",
+    "dna": "9791a460dd00461a279c83b72b97f7436681f881",
+    "edition": 1235,
+    "date": 1685121143756,
+    "attributes": [
+        {
+            "trait_type": "Animation",
+            "value": "GIF"
+        },
+        {
+            "trait_type": "Landscape",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Dark Gray"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "Red shirt"
+        },
+        {
+            "trait_type": "TV",
+            "value": "Apesonic TV"
+        },
+        {
+            "trait_type": "Hand",
+            "value": "Candle"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }
