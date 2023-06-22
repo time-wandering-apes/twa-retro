@@ -1,27 +1,27 @@
 {
-  "name": "Ape.pixel #1576",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/1575.png",
-  "dna": "35119919b6a7c81966fc956b5343d6c6591168b9",
-  "edition": 1576,
-  "date": 1685121280521,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Dark Blue"
-    },
-    {
-      "trait_type": "Skeletbody",
-      "value": "Blue Green skelet"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Dot eyes"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "LilSmile"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel.burned #1576",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/burned.png",
+    "dna": "35119919b6a7c81966fc956b5343d6c6591168b9",
+    "edition": 1576,
+    "date": 1685121280521,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "Dark Blue"
+        },
+        {
+            "trait_type": "Skeletbody",
+            "value": "Blue Green skelet"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Dot eyes"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "LilSmile"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }
