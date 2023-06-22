@@ -1,35 +1,39 @@
 {
-  "name": "Ape.pixel #778",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/777.png",
-  "dna": "5899b1544585ca5c66ccc79c7726cb4a4731ac53",
-  "edition": 778,
-  "date": 1685120959977,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Gray"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Green"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "Jacket"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Indifferent"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Teeth"
-    },
-    {
-      "trait_type": "Hat",
-      "value": "Frog"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel #778",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/777.gif",
+    "dna": "5899b1544585ca5c66ccc79c7726cb4a4731ac53",
+    "edition": 778,
+    "date": 1685120959977,
+    "attributes": [
+        {
+            "trait_type": "Animation",
+            "value": "GIF"
+        },
+        {
+            "trait_type": "Landscape",
+            "value": "Gray"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Green"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "Jacket"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Indifferent"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Teeth"
+        },
+        {
+            "trait_type": "Hat",
+            "value": "Frog"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }
