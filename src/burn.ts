@@ -1,11 +1,18 @@
 import * as fs from "fs";
 
 const burned = [
-
+    787,
+    254,
+    165,
+    910,
+    1883,
+    154,
+    807,
+    1557,
 ];
 
 const animated = [
-
+    532
 ];
 
 async function main() {
