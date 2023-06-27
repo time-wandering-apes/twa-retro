@@ -1,35 +1,35 @@
 {
-  "name": "Ape.pixel #2038",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/2037.png",
-  "dna": "a0afb6475cd30a110ee3964538ee23c2cd3cf07f",
-  "edition": 2038,
-  "date": 1685121466836,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Soft Red"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "Jacket"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Dot eyes"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "FullSmile"
-    },
-    {
-      "trait_type": "Hand",
-      "value": "Koala"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel.burned #2038",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/burned.png",
+    "dna": "a0afb6475cd30a110ee3964538ee23c2cd3cf07f",
+    "edition": 2038,
+    "date": 1685121466836,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "Soft Red"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "Jacket"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Dot eyes"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "FullSmile"
+        },
+        {
+            "trait_type": "Hand",
+            "value": "Koala"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }
