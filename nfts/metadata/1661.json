@@ -1,35 +1,35 @@
 {
-  "name": "Ape.pixel #1662",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/1661.png",
-  "dna": "f2c260a2b2f7eaeb9fb13f37b1b517583522a3a7",
-  "edition": 1662,
-  "date": 1685121315259,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Light Blue"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "Mario clothes"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Crying eyes"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Kiss"
-    },
-    {
-      "trait_type": "Hand",
-      "value": "Banana"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel.burned #1662",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/burned.png",
+    "dna": "f2c260a2b2f7eaeb9fb13f37b1b517583522a3a7",
+    "edition": 1662,
+    "date": 1685121315259,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "Mario clothes"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Crying eyes"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Kiss"
+        },
+        {
+            "trait_type": "Hand",
+            "value": "Banana"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }

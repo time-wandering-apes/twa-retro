@@ -1,35 +1,35 @@
 {
-  "name": "Ape.pixel #2012",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/2011.png",
-  "dna": "63ad26bf0e67ee5bb154a8bbbd7c553cd4c5c43e",
-  "edition": 2012,
-  "date": 1685121456355,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Dark Blue"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Dark Gray"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "TShirt Black"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Green eyes"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Open mouth"
-    },
-    {
-      "trait_type": "Hand",
-      "value": "Royal Sword"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel.burned #2012",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/burned.png",
+    "dna": "63ad26bf0e67ee5bb154a8bbbd7c553cd4c5c43e",
+    "edition": 2012,
+    "date": 1685121456355,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "Dark Blue"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Dark Gray"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "TShirt Black"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Green eyes"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Open mouth"
+        },
+        {
+            "trait_type": "Hand",
+            "value": "Royal Sword"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }

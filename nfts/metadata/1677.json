@@ -1,35 +1,35 @@
 {
-  "name": "Ape.pixel #1678",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/1677.png",
-  "dna": "8f6ac78804c87fdc45cd9047f5222bf6f29a2ec9",
-  "edition": 1678,
-  "date": 1685121321662,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Light Orange"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "Dracula clothes"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Confused eyes"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Grinch"
-    },
-    {
-      "trait_type": "Hand",
-      "value": "Banana Sword"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel.burned #1678",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/burned.png",
+    "dna": "8f6ac78804c87fdc45cd9047f5222bf6f29a2ec9",
+    "edition": 1678,
+    "date": 1685121321662,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "Light Orange"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "Dracula clothes"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Confused eyes"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Grinch"
+        },
+        {
+            "trait_type": "Hand",
+            "value": "Banana Sword"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }

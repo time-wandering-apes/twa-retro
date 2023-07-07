@@ -1,39 +1,39 @@
 {
-  "name": "Ape.pixel #467",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/466.png",
-  "dna": "a530646243b42e62bca7b46b42bdb93148eefdf2",
-  "edition": 467,
-  "date": 1685120835993,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Soft Pink"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "Red shirt"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "NO"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "PokerFace"
-    },
-    {
-      "trait_type": "Hat",
-      "value": "Party Hat"
-    },
-    {
-      "trait_type": "Hand",
-      "value": "Sapphire"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel.burned #467",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/burned.png",
+    "dna": "a530646243b42e62bca7b46b42bdb93148eefdf2",
+    "edition": 467,
+    "date": 1685120835993,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "Soft Pink"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "Red shirt"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "NO"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "PokerFace"
+        },
+        {
+            "trait_type": "Hat",
+            "value": "Party Hat"
+        },
+        {
+            "trait_type": "Hand",
+            "value": "Sapphire"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }

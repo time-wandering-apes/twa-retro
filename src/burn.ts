@@ -1,19 +1,24 @@
 import * as fs from "fs";
-
-const burned = [
-    1136, 262, 149, 2060, 452, 269, 132
-];
+import { TonService } from "./ton.service";
 
 const animated = [
-    2178
+
 ];
 
 async function main() {
-    for(const it of burned) {
-        const file = JSON.parse(fs.readFileSync(`nfts/metadata/${it - 1}.json`, 'utf8'));
+    const toBurn = (await TonService.getNftsForTargetCollections(
+        "EQD__________________________________________0vo",
+        "EQDaX_LSY6zxC8qgmTctL1jD8Pa6y6-RWmqgrRcMCTBONx0R"
+    )).filter(it => (
+        !it.metadata.name.includes("burned")
+    ))
+
+    for(const it of toBurn) {
+        const ind = +it.metadata.name.split("Ape.pixel #")[1]
+        const file = JSON.parse(fs.readFileSync(`nfts/metadata/${ind - 1}.json`, 'utf8'));
         file.name = file.name.replace("Ape.pixel", "Ape.pixel.burned");
-        file.image = file.image.replace(`${it - 1}.png`, "burned.png");
-        fs.writeFile(`nfts/metadata/${it - 1}.json`, JSON.stringify(file, null, 4),(e) => {
+        file.image = file.image.replace(`${ind - 1}.png`, "burned.png");
+        fs.writeFile(`nfts/metadata/${ind - 1}.json`, JSON.stringify(file, null, 4),(e) => {
             if(e) throw Error(e.message)
         })
         await new Promise(res => setTimeout(res, 200))

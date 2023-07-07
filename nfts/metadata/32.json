@@ -1,35 +1,35 @@
 {
-  "name": "Ape.pixel #33",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/32.png",
-  "dna": "f0599f409301f694b4c8cdf72132b4d86b9ad4ca",
-  "edition": 33,
-  "date": 1685120666820,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Dark Blue"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Brown"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "Armor"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "NO"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Angry"
-    },
-    {
-      "trait_type": "Hat",
-      "value": "Banana Hat"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel.burned #33",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/burned.png",
+    "dna": "f0599f409301f694b4c8cdf72132b4d86b9ad4ca",
+    "edition": 33,
+    "date": 1685120666820,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "Dark Blue"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "Armor"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "NO"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Angry"
+        },
+        {
+            "trait_type": "Hat",
+            "value": "Banana Hat"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }
