@@ -13,18 +13,18 @@ async function main() {
         !it.metadata.name.includes("burned")
     ))
 
-    if (!toBurn.length) {
-        console.log("No NFT's to burn")
-    }
+    console.log(`NFT's to burn: ${toBurn.length}`)
 
     for(const it of toBurn) {
-        if (it.metadata.name.includes("burned")) {
+        const ind = +it.metadata.name.split("Ape.pixel #")[1]
+
+        const file = JSON.parse(fs.readFileSync(`nfts/metadata/${ind - 1}.json`, 'utf8'));
+
+        if (it.metadata.name.includes("burned") || file.name.includes("burned")) {
             console.log(`Skip ${it.metadata.name}`)
             continue;
         }
 
-        const ind = +it.metadata.name.split("Ape.pixel #")[1]
-        const file = JSON.parse(fs.readFileSync(`nfts/metadata/${ind - 1}.json`, 'utf8'));
         file.name = file.name.replace("Ape.pixel", "Ape.pixel.burned");
         file.image = file.image.replace(`${ind - 1}.png`, "burned.png");
         fs.writeFile(`nfts/metadata/${ind - 1}.json`, JSON.stringify(file, null, 4),(e) => {
