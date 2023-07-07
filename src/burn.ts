@@ -13,7 +13,16 @@ async function main() {
         !it.metadata.name.includes("burned")
     ))
 
+    if (!toBurn.length) {
+        console.log("No NFT's to burn")
+    }
+
     for(const it of toBurn) {
+        if (it.metadata.name.includes("burned")) {
+            console.log(`Skip ${it.metadata.name}`)
+            continue;
+        }
+
         const ind = +it.metadata.name.split("Ape.pixel #")[1]
         const file = JSON.parse(fs.readFileSync(`nfts/metadata/${ind - 1}.json`, 'utf8'));
         file.name = file.name.replace("Ape.pixel", "Ape.pixel.burned");
