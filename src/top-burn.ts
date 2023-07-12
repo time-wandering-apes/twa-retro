@@ -1,5 +1,6 @@
 import { TonService } from "./ton.service";
 import { uniq } from "lodash";
+import * as fs from "fs";
 
 
 
@@ -17,15 +18,19 @@ async function main() {
 
     const prevOwners = uniq(nftsTxns.map(it => it.in_msg.decoded_body?.prev_owner?.toString()).filter(it => it)) as string[];
 
-    prevOwners.map((address) => {
+    const top = prevOwners.map((address) => {
         return {
             address,
             count: nftsTxns.filter(it => it.in_msg.decoded_body?.prev_owner?.toString() === address).length
         }
     })
     .sort((a, b) => b.count - a.count)
-    .forEach(({ address, count }) => {
-        console.log(`${address.slice(0, 6)}...${address.slice(address.length - 6)} => ${count}`)
+    .map(({ address, count }) => {
+        return `${address.slice(0, 6)}...${address.slice(address.length - 6)} => ${count}`
+    })
+
+    fs.writeFile("top-burn.txt", JSON.stringify(top, null, 4), (err) => {
+        if (err) throw Error(err.message)
     })
 }
 
