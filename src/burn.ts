@@ -2,7 +2,7 @@ import * as fs from "fs";
 import { TonService } from "./ton.service";
 
 const animated = [
-    1186, 681
+
 ];
 
 async function main() {
@@ -26,7 +26,7 @@ async function main() {
         }
 
         file.name = file.name.replace("Ape.pixel", "Ape.pixel.burned");
-        file.image = file.image.replace(`${ind - 1}.png`, "burned.png");
+        file.image = file.image.replace(`${ind - 1}.png`, "burned.gif");
         fs.writeFile(`nfts/metadata/${ind - 1}.json`, JSON.stringify(file, null, 4),(e) => {
             if(e) throw Error(e.message)
         })
