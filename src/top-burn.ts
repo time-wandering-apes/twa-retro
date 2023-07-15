@@ -26,12 +26,13 @@ async function main() {
     })
     .sort((a, b) => b.count - a.count)
     .map(({ address, count }) => {
+        console.log(`${address.slice(0, 6)}...${address.slice(address.length - 6)} => ${count}`)
         return `${address.slice(0, 6)}...${address.slice(address.length - 6)} => ${count}`
     })
 
-    fs.writeFile("top-burn.txt", JSON.stringify(top, null, 4), (err) => {
-        if (err) throw Error(err.message)
-    })
+    // fs.writeFile("top-burn.txt", JSON.stringify(top, null, 4), (err) => {
+    //     if (err) throw Error(err.message)
+    // })
 }
 
 main();
