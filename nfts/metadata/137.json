@@ -1,27 +1,27 @@
 {
-  "name": "Ape.pixel #138",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/137.png",
-  "dna": "ced598cbba01e9f3d542dd4a144820f128b94ca1",
-  "edition": 138,
-  "date": 1685120707872,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Light Blue"
-    },
-    {
-      "trait_type": "Skeletbody",
-      "value": "Orange skelet"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Sleepy"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Shock"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel.burned #138",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/burned.gif",
+    "dna": "ced598cbba01e9f3d542dd4a144820f128b94ca1",
+    "edition": 138,
+    "date": 1685120707872,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "Light Blue"
+        },
+        {
+            "trait_type": "Skeletbody",
+            "value": "Orange skelet"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Sleepy"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Shock"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }
