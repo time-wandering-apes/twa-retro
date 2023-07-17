@@ -2,7 +2,7 @@ import * as fs from "fs";
 import { TonService } from "./ton.service";
 
 const animated = [
-    47
+    1955, 210
 ];
 
 async function main() {
@@ -36,11 +36,18 @@ async function main() {
 
     for(const it of animated) {
         const file = JSON.parse(fs.readFileSync(`nfts/metadata/${it - 1}.json`, 'utf8'));
-        file.image = file.image.replace(`${it - 1}.png`, `${it - 1}.gif`);
-        file.attributes.unshift({
-            "trait_type": "Animation",
-            "value": "GIF"
-        })
+
+        if (!file.image.includes(".gif")) {
+            file.image = file.image.replace(`${it - 1}.png`, `${it - 1}.gif`);
+        }
+
+        if (!file.attributes.some(it => it.trait_type === "Animation")) {
+            file.attributes.unshift({
+                "trait_type": "Animation",
+                "value": "GIF"
+            })
+        }
+
         fs.writeFile(`nfts/metadata/${it - 1}.json`, JSON.stringify(file, null, 4),(e) => {
             if(e) throw Error(e.message)
         })
