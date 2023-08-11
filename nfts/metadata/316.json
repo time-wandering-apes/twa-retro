@@ -1,35 +1,35 @@
 {
-  "name": "Ape.pixel #317",
-  "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
-  "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/316.png",
-  "dna": "3d977121089d36739aa5102a8839ae1150a9f256",
-  "edition": 317,
-  "date": 1685120776306,
-  "attributes": [
-    {
-      "trait_type": "Landscape",
-      "value": "Soft Pink"
-    },
-    {
-      "trait_type": "Body",
-      "value": "Dark Red"
-    },
-    {
-      "trait_type": "Outwear",
-      "value": "Hoodie"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "What"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Bewilderment"
-    },
-    {
-      "trait_type": "Hand",
-      "value": "Banana"
-    }
-  ],
-  "compiler": "HashLips Art Engine mod by VASYAN PFR"
+    "name": "Ape.pixel.burned #317",
+    "description": "Welcome to the world of pixel fun and retro delight! Our collection is a wonderful addition to Time-Wandering Apes, transporting you into an amazing pixelated realm. Here, you will encounter playful and charming characters inspired by the spirit of bygone times. Immerse yourself in the atmosphere of retro graphics and enjoy a pleasant bonus of visual magic from the pixel era. In this collection, fun and enjoyable emotions are guaranteed!",
+    "image": "https://time-wandering-apes.github.io/twa-retro/nfts/images/burned.gif",
+    "dna": "3d977121089d36739aa5102a8839ae1150a9f256",
+    "edition": 317,
+    "date": 1685120776306,
+    "attributes": [
+        {
+            "trait_type": "Landscape",
+            "value": "Soft Pink"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Dark Red"
+        },
+        {
+            "trait_type": "Outwear",
+            "value": "Hoodie"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "What"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Bewilderment"
+        },
+        {
+            "trait_type": "Hand",
+            "value": "Banana"
+        }
+    ],
+    "compiler": "HashLips Art Engine mod by VASYAN PFR"
 }
