@@ -2,7 +2,7 @@ import * as fs from "fs";
 import { TonService } from "./ton.service";
 
 const animated = [
-    4
+    1360
 ];
 
 async function main() {
