@@ -1,6 +1,11 @@
 import * as fs from "fs";
 
-async function main() {
+
+export async function updateFullMeta() {
+    fs.writeFile(`nfts/metadata/full-meta.json`, "",(e) => {
+        if(e) throw Error(e.message)
+    })
+
     const baseFolderFiles = await new Promise<string[]>((res, rej) => fs.readdir("nfts/metadata", (err, files) => {
         if (err) rej(err);
         res(files);
@@ -15,6 +20,10 @@ async function main() {
     fs.writeFile(`nfts/metadata/full-meta.json`, JSON.stringify(meta, null, 4),(e) => {
         if(e) throw Error(e.message)
     })
+}
+
+function main() {
+    updateFullMeta();
 }
 
 main();

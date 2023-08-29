@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import { TonService } from "./ton.service";
+import { updateFullMeta } from "./full-meta";
 
 const animated = [
     469
@@ -53,6 +54,8 @@ async function main() {
         })
         await new Promise(res => setTimeout(res, 200))
     }
+
+    await updateFullMeta();
 }
 
 main();
