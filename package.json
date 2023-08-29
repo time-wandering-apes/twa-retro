@@ -2,7 +2,8 @@
   "scripts": {
     "burn": "del-cli --force dist && tsc && node dist/burn.js",
     "top": "del-cli --force dist && tsc && node dist/top-burn.js",
-    "fix-meta": "del-cli --force dist && tsc && node dist/fix-meta.js"
+    "fix-meta": "del-cli --force dist && tsc && node dist/fix-meta.js",
+    "full-meta": "del-cli --force dist && tsc && node dist/full-meta.js"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.194",
