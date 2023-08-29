@@ -33,7 +33,7 @@ export class TonService {
             const responses: Txn[] =[];
 
             for (let i = 0; i < [...new Array(1)].length; i++) {
-                await new Promise(res => setTimeout(res, 500))
+                await new Promise(res => setTimeout(res, 1000))
                 const { data } = await axios.get(`${config.TON_API_URL}/blockchain/accounts/${address}/transactions?`+ new URLSearchParams({
                     "after_lt": `${1000 * i}`,
                     "limit": "1000"
