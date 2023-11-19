@@ -6,7 +6,7 @@ import { TonService } from "./ton.service";
 import { updateFullMeta } from "./full-meta";
 
 const animated = [
-    1425, 2190
+
 ];
 
 async function main() {
