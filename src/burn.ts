@@ -1,9 +1,12 @@
+import { config as envConfig } from "dotenv";
+envConfig();
+
 import * as fs from "fs";
 import { TonService } from "./ton.service";
 import { updateFullMeta } from "./full-meta";
 
 const animated = [
-    469
+    1425, 2190
 ];
 
 async function main() {

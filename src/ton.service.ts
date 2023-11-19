@@ -5,6 +5,27 @@ import { Nft, Txn } from "./types";
 
 export class TonService {
 
+    static async getCollectionsNfts(collection: string): Promise<Nft[]> {
+        try {
+            const response = (await axios.get(`${config.TON_API_URL}/nfts/collections/${collection}/items?`+ new URLSearchParams({
+                limit: "1000",
+                offset: "0",
+            }).toString(), TON_REQ_HEADER)).data.nft_items
+
+            return response.map(it => ({
+                ...it,
+                address: Address.parseRaw(it.address).toString(),
+                collection: {
+                    ...it.collection,
+                    address: Address.parseRaw(it.collection.address).toString(),
+                }
+            }));
+        } catch (e: any) {
+            const errorData = e.response?.data;
+            throw Error((errorData || {}).error || (errorData || {}).message || errorData || e.message)
+        }
+    }
+
     static async getNftsForTargetCollections(account: string, collection: string): Promise<Nft[]> {
         try {
             const response = (await axios.get(`${config.TON_API_URL}/accounts/${account}/nfts?`+ new URLSearchParams({

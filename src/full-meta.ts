@@ -6,10 +6,10 @@ export async function updateFullMeta() {
         if(e) throw Error(e.message)
     })
 
-    const baseFolderFiles = await new Promise<string[]>((res, rej) => fs.readdir("nfts/metadata", (err, files) => {
+    const baseFolderFiles = (await new Promise<string[]>((res, rej) => fs.readdir("nfts/metadata", (err, files) => {
         if (err) rej(err);
         res(files);
-    }))
+    }))).filter(it => it !== "full-meta.json")
 
     const meta: any[] = [];
 
